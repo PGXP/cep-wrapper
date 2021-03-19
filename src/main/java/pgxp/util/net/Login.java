@@ -51,13 +51,13 @@ public class Login {
             connection.setRequestMethod("POST");
             connection.setRequestProperty("Content-Type", "application/json");
             connection.setRequestProperty("Accept", "application/json");
-            connection.setRequestProperty("User-Agent", "Demoiselle");
+            connection.setRequestProperty("User-Agent", "PGXP");
             connection.setRequestProperty("charset", "utf-8");
             connection.setDoOutput(true);
             connection.setUseCaches(false);
             connection.connect();
 
-            try (OutputStream outputStream = connection.getOutputStream()) {
+            try ( OutputStream outputStream = connection.getOutputStream()) {
                 outputStream.write(jsonBodyStr.getBytes());
                 outputStream.flush();
             }
@@ -66,7 +66,7 @@ public class Login {
 
             if (connection.getResponseCode() == 200) {
 
-                try (BufferedReader in = new BufferedReader(
+                try ( BufferedReader in = new BufferedReader(
                         new InputStreamReader(connection.getInputStream()))) {
                     String inputLine;
 

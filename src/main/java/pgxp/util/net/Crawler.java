@@ -55,7 +55,7 @@ public class Crawler {
             connection.setRequestMethod("GET");
             connection.setRequestProperty("Content-Type", "application/json");
             connection.setRequestProperty("Accept", "application/json");
-            connection.setRequestProperty("User-Agent", "Demoiselle");
+            connection.setRequestProperty("User-Agent", "PGXP");
             connection.setRequestProperty("charset", "utf-8");
             connection.setRequestProperty("Authorization", token.getType() + " " + token.getKey());
             connection.connect();
@@ -107,7 +107,7 @@ public class Crawler {
             connection.setRequestMethod("GET");
             connection.setRequestProperty("Content-Type", "application/json");
             connection.setRequestProperty("Accept", "application/json");
-            connection.setRequestProperty("User-Agent", "Demoiselle");
+            connection.setRequestProperty("User-Agent", "PGXP");
             connection.setRequestProperty("charset", "utf-8");
             connection.setRequestProperty("Authorization", token.getType() + " " + token.getKey());
             connection.connect();
@@ -159,7 +159,7 @@ public class Crawler {
             connection.setRequestMethod("GET");
             connection.setRequestProperty("Content-Type", "application/json");
             connection.setRequestProperty("Accept", "application/json");
-            connection.setRequestProperty("User-Agent", "Demoiselle");
+            connection.setRequestProperty("User-Agent", "PGXP");
             connection.setRequestProperty("charset", "utf-8");
             connection.setRequestProperty("Authorization", token.getType() + " " + token.getKey());
             connection.connect();
@@ -211,7 +211,7 @@ public class Crawler {
             connection.setRequestMethod("GET");
             connection.setRequestProperty("Content-Type", "application/json");
             connection.setRequestProperty("Accept", "application/json");
-            connection.setRequestProperty("User-Agent", "Demoiselle");
+            connection.setRequestProperty("User-Agent", "PGXP");
             connection.setRequestProperty("charset", "utf-8");
             connection.setRequestProperty("Authorization", token.getType() + " " + token.getKey());
             connection.connect();
@@ -265,7 +265,7 @@ public class Crawler {
             connection.setRequestMethod("GET");
             connection.setRequestProperty("Content-Type", "application/json");
             connection.setRequestProperty("Accept", "application/json");
-            connection.setRequestProperty("User-Agent", "Demoiselle");
+            connection.setRequestProperty("User-Agent", "PGXP");
             connection.setRequestProperty("charset", "utf-8");
             connection.setRequestProperty("Authorization", token.getType() + " " + token.getKey());
             connection.connect();

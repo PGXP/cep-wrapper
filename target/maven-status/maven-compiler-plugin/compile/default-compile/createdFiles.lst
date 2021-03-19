@@ -8,8 +8,8 @@ pgxp/util/entity/Cpf.class
 pgxp/util/net/Crawler.class
 pgxp/util/net/Login.class
 pgxp/util/entity/Socios.class
-pgxp/util/AdminConfig.class
 pgxp/util/net/Crawler$4.class
+pgxp/util/AdminConfig.class
 pgxp/util/security/Credentials.class
 pgxp/util/entity/Cnae.class
 pgxp/util/entity/Ip2location.class
