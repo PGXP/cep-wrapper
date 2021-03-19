@@ -1,5 +1,5 @@
-# demoiselle-gateway
-API cep-wrapper para projeto JEE7 Demoiselle
+# cep-wrapper
+API cep-wrapper 
 
 ### REPO Maven
 ```JAVA
@@ -12,3 +12,12 @@ API cep-wrapper para projeto JEE7 Demoiselle
           </snapshots>
 </repository>
 ```
+
+### Dependencia
+```JAVA
+         <dependency>
+            <groupId>br.com.pgxp</groupId>
+            <artifactId>util</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+```        
